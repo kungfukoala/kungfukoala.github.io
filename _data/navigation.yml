@@ -1,0 +1,7 @@
+main_navigation:
+  profile:
+    url:  "/profile/"
+    text: "Profile"
+  contact:
+    url:  "/contact/"
+    text: "Contact"

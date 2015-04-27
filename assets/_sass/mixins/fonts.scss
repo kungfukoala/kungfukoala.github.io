@@ -1,0 +1,5 @@
+@include font-face("adagio-serif", '#{$font-assetpath}adagio-serif', $file-formats: ttf woff);
+@include font-face("adagio-serif", '#{$font-assetpath}adagio-serif-regular-italic', normal, italic, $file-formats: ttf woff);
+@include font-face("adagio-serif", '#{$font-assetpath}adagio-serif-light', 100, $file-formats: ttf woff);
+@include font-face("adagio-serif", '#{$font-assetpath}adagio-serif-semibold', 700, $file-formats: ttf woff);
+@include font-face("adagio-serif", '#{$font-assetpath}adagio-serif-semibold-italic', 700, italic, $file-formats: ttf woff);

@@ -1,0 +1,27 @@
+@mixin unordered {
+	 list-style-position:outside; 
+	 list-style-type:disc;
+}
+
+@mixin unordered-inside {
+	 list-style-position:inside; 
+	 list-style-type:disc;
+}
+
+@mixin ordered {
+	list-style-position:outside; 
+	list-style-type:decimal;
+}
+
+@mixin ordered-inside {
+	list-style-position:inside; 
+	list-style-type:decimal;
+}
+
+@mixin nobullet {
+	list-style-type: none;
+}
+
+@mixin background-image($img-name, $repeat:no-repeat, $x:0px, $y:0px) {
+  background:url(#{$img-assetpath}#{$img-name}) $repeat $y $x;
+}

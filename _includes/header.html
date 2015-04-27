@@ -1,0 +1,9 @@
+<header class="masthead">
+  <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
+  <nav class="site-navigation">
+    {% include navigation.html %}
+  </nav>
+  {% if site.show_social %}
+    {% include social.html %}
+  {% endif %}
+</header>
