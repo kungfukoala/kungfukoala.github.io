@@ -16,6 +16,9 @@ layout: default
     {% if page.author %}
     <span class="post-author">{{ page.author }}</span>
     {% endif %}
+    {% if page.tags %}
+    <span class="post-tags">{{ page.tags }}</span>
+    {% endif %}
   </header>
 
   <article class="post-content">

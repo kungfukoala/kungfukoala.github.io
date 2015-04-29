@@ -4,7 +4,7 @@ email:                ben@benjaminkinzer.com
 author:               Benjamin Kinzer
 description:          Site description here.
 baseurl:              "" # subpath if necessary, e.g. /blog/
-url:                  "" # base url http://url.com
+url:                  "/" # base url http://url.com
 
 # GOOGLE ANALYTICS
 google_analytics:     UA-XXXXX-X

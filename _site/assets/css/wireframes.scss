@@ -1,0 +1,28 @@
+.square {
+  &-featured {
+    width: 140px;
+    height: 140px;
+  };
+   background: blue;
+}
+.circle {
+  &-featured {
+    @extend .square-featured;
+  }
+   width: 140px;
+   height: 140px;
+   @include border-top-radius(5px);
+   @include border-right-radius(5px);
+   @include border-bottom-radius(5px);
+   @include border-left-radius(5px);
+   background: blue;
+}
+.triangle {
+  &-featured {
+    border-bottom: 120px solid blue;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+  }
+   width: 0;
+   height: 0;
+}
