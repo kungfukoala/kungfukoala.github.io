@@ -4,4 +4,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: {{ '/sitemap.xml' | prepend: site.base | prepend: site.url }}
+Sitemap: http://url.com/sitemap.xml

@@ -1,39 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Title here</title>
+    <title>Benjamin Kinzer</title>
     <description>Site description here.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Apr 2015 22:49:32 -0700</pubDate>
-    <lastBuildDate>Thu, 23 Apr 2015 22:49:32 -0700</lastBuildDate>
+    <link>http://benjaminkinzer.com/</link>
+    <atom:link href="http://benjaminkinzer.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 30 Apr 2015 02:10:09 -0700</pubDate>
+    <lastBuildDate>Thu, 30 Apr 2015 02:10:09 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Welcome to Underscore</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Unknown Truths</title>
+        <description>&lt;div class=&quot;introduction&quot;&gt;
+  &quot;In my music, I’m trying to play the truth of what I am. The reason it’s difficult is because I’m changing all the time.&quot; - Charles Mingus
+&lt;/div&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Charles Mingus quote is exactly how I feel about the redesign of &lt;a href=&quot;http://benjaminkinzer.com&quot;&gt;benjaminkinzer.com&lt;/a&gt;. Working on personal projects is a challenge, but they are not that much different from client projects. They all feel like a Dyson vaccuum clearner in the beginning. You have one job; to vaccuum up thousands of dust particles. Sounds simple; you’re a vaccuum cleaner after all? &lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;Now replace dust particles with &lt;strong&gt;truths&lt;/strong&gt; and your job is to decipher out of a thousand truths, the ones that will give birth to an idea. Right now, I’m currently at seven re-writes and four introductions. My problem with this particular project is is reflect upon my own &lt;strong&gt;truths&lt;/strong&gt;, instead of discovering someone elses.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;the-truth&quot;&gt;The Truth&lt;/h2&gt;
+&lt;p&gt;I’m laying on the floor of our little one bedroom house preparing for the interview I never imagined I would be having. I was about to be on the phone with Bill Cahan of &lt;a href=&quot;http://designarchives.aiga.org/#/entries/%2Bcredits%3A%22Cahan%20%26%20Associates%22/_/grid/relevance/desc/0/27/120&quot;&gt;Cahan &amp;amp; Associates&lt;/a&gt;. I remember receiving my first Typography Annual &lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I knew everyone who worked for Bill and had their book I’m almost Always Hungry. I only dreamed of working for Cahan &amp;amp; Associates; I had an interview with Bill Cahan. I F*%KING FAILED! I’m not kidding. The interview I did well at, but he was afraid I could not come up with an intelligent concept; granted at the time I had no work to really show my love for ideas. Plus I couldn’t write, which is what he expected from all of his employees. Hence why the redsign of my site is all about &lt;strong&gt;writing&lt;/strong&gt;. At least I’m kind of learning from Bill from a distance. I hope one day I can meet him in person over a drink or coffee. Of course in my head it would play out all so well “I would be like hey Bill I doubt you remember me…” and of course we would laugh.&lt;/p&gt;
+
+&lt;p&gt;Anyways…&lt;/p&gt;
+
+&lt;h2 id=&quot;the-project&quot;&gt;The project&lt;/h2&gt;
+&lt;p&gt;Currently we are sporting a similar style used back in 1989 when the first website was born: http://info.cern.ch/hypertext/WWW/TheProject.html. This project is to document my design methods and the process of designing within the browser.&lt;/p&gt;
+
+&lt;h3 id=&quot;methods-of-design&quot;&gt;Methods of Design&lt;/h3&gt;
+&lt;p&gt;I’m really not 100% sure what my method is to design. My hope the redesign will provide me with an opportunity to document my methods in order to refine them further. I’m also interested in helping others learn from my mistakes, improving my design methods and providing more clarity around what I actually &lt;strong&gt;do&lt;/strong&gt; as a designer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Outlined Methods&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Research (Remember Dyson Vaccum) or what my partner &lt;a href=&quot;http://chloefrommer.com&quot;&gt;Chloé Frommer&lt;/a&gt; does.&lt;/li&gt;
+  &lt;li&gt;Concepts &amp;amp; Content&lt;/li&gt;
+  &lt;li&gt;Content Prioritization&lt;/li&gt;
+  &lt;li&gt;Style Board &lt;a href=&quot;http://styletil.es/&quot;&gt;Style Tiles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Layout&lt;/li&gt;
+  &lt;li&gt;Design&lt;/li&gt;
+  &lt;li&gt;Interaction (I’m on the fence whether this should become before design or after. Let’s find out.)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;why-design-in-the-browser&quot;&gt;Why design in the browser&lt;/h3&gt;
+&lt;p&gt;The final reason is that I’m interested in “Design within the Browser”, which is to eliminate the step of creating hundreds of Photoshop files, reducing the amount of unknowns in a web application/website project and involving the client sooner than later.&lt;/p&gt;
+
+&lt;p&gt;So without further adieu…&lt;/p&gt;
+
+&lt;h2 id=&quot;notes-and-credits&quot;&gt;Notes and Credits&lt;/h2&gt;
+&lt;p&gt;###Music
+&amp;lt;iframe src=&quot;https://embed.spotify.com/?uri=spotify%3Atrack%3A4KdRJgNreqwedBQPuQkycb&quot; width=&quot;250&quot; height=&quot;330&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot;&amp;gt;&amp;lt;/iframe&amp;gt;
+###Reading
+Building a Better User Experience by Designing in the Browser - &lt;a href=&quot;http://uxmag.com/articles/building-a-better-user-experience-by-designing-in-the-browser&quot;&gt;UX Magazine&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Iterative Design http://en.wikipedia.org/wiki/Iterative_design&lt;/p&gt;
+
+&lt;h3 id=&quot;art&quot;&gt;Art&lt;/h3&gt;
+&lt;p&gt;The lovely skeleton “Table 3” is by Bernhard Siegfried Albinus http://www.nlm.nih.gov/exhibition/historicalanatomies/albinus_bio.html&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 13 Mar 2015 06:54:10 -0700</pubDate>
-        <link>/underscore/beginnings/2015/03/13/welcome-to-underscore/</link>
-        <guid isPermaLink="true">/underscore/beginnings/2015/03/13/welcome-to-underscore/</guid>
+        <pubDate>Mon, 27 Apr 2015 06:54:10 -0700</pubDate>
+        <link>http://benjaminkinzer.com/design/development/2015/04/27/unknown-truths/</link>
+        <guid isPermaLink="true">http://benjaminkinzer.com/design/development/2015/04/27/unknown-truths/</guid>
+        
+        <category>underscore,</category>
+        
+        <category>design</category>
+        
+        <category>in</category>
+        
+        <category>the</category>
+        
+        <category>browser,</category>
+        
+        <category>website</category>
         
         
-        <category>underscore</category>
+        <category>design</category>
         
-        <category>beginnings</category>
+        <category>development</category>
         
       </item>
     

@@ -1,7 +1,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+        <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }} {{ page.subtitle }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="{% if page.summary %}{{ page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
         <meta name="author" content="{{ site.author }}">
@@ -9,7 +9,11 @@
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
+        {% if page.css %}
+        <link rel="stylesheet" href="{{ "/assets/css/pages/" | prepend: site.baseurl }}{{page.css}}">
+        {% else %}
         <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}">
+        {% endif %}
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="assets/javascript/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="assets/javascript/vendor/modernizr-2.8.3.min.js"></script>
