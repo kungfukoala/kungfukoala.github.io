@@ -1,10 +1,11 @@
 # SITE SETTINGS
-title:                Benjamin Kinzer - Creative Director and Designer
+title:                Benjamin Kinzer
+subtitle:             Creative Director and Designer
 email:                ben@benjaminkinzer.com
 author:               Benjamin Kinzer
 description:          Site description here.
 baseurl:              "" # subpath if necessary, e.g. /blog/
-url:                  "/" # base url http://url.com
+url:                  "http://benjaminkinzer.com" # base url http://url.com
 
 # GOOGLE ANALYTICS
 google_analytics:     UA-XXXXX-X

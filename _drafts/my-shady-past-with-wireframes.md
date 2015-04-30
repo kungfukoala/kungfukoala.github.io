@@ -6,11 +6,6 @@ categories: design development project
 tags: wireframes, underscore, design in the browser, history
 css: wireframes.css
 ---
-<div class="feature-banner">
-  <div class="circle-featured"></div>
-  <div class="square-featured"></div>
-  <div class="triangle-featured"></div>
-</div>
 When I first started design as an Intern at The Office of Bill Chiaravalle, I would hear about the different projects Bill had to complete while he was at design school. However, I missed out on some of these basic design principle classes. However, I learned a lot of those principles through actually working on tedious projects for Bill. For todays post on Wireframes, I felt the three objects and how you can view them is a great introduction to my issue with wireframes. Everyone has their own methods to reach a conclusion and for me I've never really taken the time to explain my approach to projects. 
 
 So how does a circle, square and triangle relate to wireframes? Well wireframes are a grouping of blocks that have descriptive labels. 

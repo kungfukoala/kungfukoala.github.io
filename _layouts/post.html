@@ -12,15 +12,22 @@ layout: default
     {% if page.update_date %}
       <span class="post-meta">Updated: {{ page.update_date | date: "%b %-d, %Y" }}</span><br>
     {% endif %}
-    <span class="post-meta">{{ minutes }} minute read</span>
+    <span class="post-meta">{{ minutes }} minute read</span><br>
     {% if page.author %}
-    <span class="post-author">{{ page.author }}</span>
+    <span class="post-author">{{ page.author }}</span><br>
+    {% endif %}
+    {% if page.categories %}
+    <span class="post-categories">{{ page.categories | join: ' ' }}</span><br>
     {% endif %}
     {% if page.tags %}
-    <span class="post-tags">{{ page.tags }}</span>
+    <span class="post-tags">{{ page.tags | join: ' ' }}</span>
     {% endif %}
   </header>
-
+  {% if page.feature-image %}
+  <div class="feature-image">
+    <img src="{{ "/images/" | prepend: site.baseurl }}{{ page.feature-image }}" alt="{{ page.feature-alt }}">
+  </div>
+  {% endif %}
   <article class="post-content">
     {{ content }}
   </article>
