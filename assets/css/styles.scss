@@ -2,16 +2,22 @@
 ---
 // SETTINGS
 @import 'settings/variables';
-@import 'base/mediaqueries';
-// BASE
-@import 'base/normalize';
+// PLUGINS
 @import 'bourbon/bourbon';
 @import 'jeet/index';
+@import 'base/mediaqueries';
+@import 'base/normalize';
+// MIXINS
+@import 'mixins/mixins';
+// EXTEND
+@import 'extend/placeholders';
+// BASE
 @import 'base/helpers';
-// MIXIN & PLACEHOLDERS
-@import 'base/placeholders';
+@import 'base/fonts';
+@import 'base/typography';
 // LAYOUT
-
+@import 'layouts/default.scss';
+@import 'layouts/home.scss';
 // MODULES
 
 // PAGES
