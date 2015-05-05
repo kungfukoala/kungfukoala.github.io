@@ -1,4 +1,0 @@
-##What is an Art Director?
-We are a curious bunch of misfits. No really. Actually Art Directors oversee creative aspects of a project to ensure a particular vision. They are in charge of how a piece visually communicates, appeals to the target audience, what artistic style is appropriate for the project, ensures the tone of the copy matches the strategy. They also play a role of translating concepts, moods and messages of ideas into visual communications. 
-
-On top of it all I ensure that everyone involved in the project has a voice, all ideas are acknowledged and responsible for editing out visuals or ideas that might overhwelm the audience.

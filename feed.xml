@@ -1,30 +1,133 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Benjamin Kinzer</title>
+    <description>Benjamin Kinzer - Creative Director and Designer who loves great ideas and making them real.</description>
+    <link>http://benjaminkinzer.com/</link>
+    <atom:link href="http://benjaminkinzer.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 05 May 2015 09:45:29 -0700</pubDate>
+    <lastBuildDate>Tue, 05 May 2015 09:45:29 -0700</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>High Desert Journal</title>
+        <description>
+</description>
+        <pubDate>Mon, 04 May 2015 06:54:10 -0700</pubDate>
+        <link>http://benjaminkinzer.com/design/2015/05/04/high-desert-journal-19/</link>
+        <guid isPermaLink="true">http://benjaminkinzer.com/design/2015/05/04/high-desert-journal-19/</guid>
+        
+        <category>editorial</category>
+        
+        
+        <category>design</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>High Desert Journal</title>
+        <description>
+</description>
+        <pubDate>Mon, 04 May 2015 05:54:10 -0700</pubDate>
+        <link>http://benjaminkinzer.com/design/2015/05/04/high-desert-journal-6-7-19/</link>
+        <guid isPermaLink="true">http://benjaminkinzer.com/design/2015/05/04/high-desert-journal-6-7-19/</guid>
+        
+        <category>editorial</category>
+        
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>High Desert Journal</title>
+        <description>
+</description>
+        <pubDate>Mon, 04 May 2015 05:54:10 -0700</pubDate>
+        <link>http://benjaminkinzer.com/design/2015/05/04/high-desert-journal-12-13-19/</link>
+        <guid isPermaLink="true">http://benjaminkinzer.com/design/2015/05/04/high-desert-journal-12-13-19/</guid>
+        
+        <category>editorial</category>
+        
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>The JAM Project</title>
+        <description>
+</description>
+        <pubDate>Sun, 03 May 2015 07:54:10 -0700</pubDate>
+        <link>http://benjaminkinzer.com/design/2015/05/03/the-jam-project/</link>
+        <guid isPermaLink="true">http://benjaminkinzer.com/design/2015/05/03/the-jam-project/</guid>
+        
+        <category>logo</category>
+        
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>MixedBlood</title>
+        <description>
+</description>
+        <pubDate>Sun, 03 May 2015 06:54:10 -0700</pubDate>
+        <link>http://benjaminkinzer.com/design/2015/05/03/mixedblood-productions/</link>
+        <guid isPermaLink="true">http://benjaminkinzer.com/design/2015/05/03/mixedblood-productions/</guid>
+        
+        <category>logo</category>
+        
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>High Desert Journal</title>
+        <description>
+</description>
+        <pubDate>Sun, 03 May 2015 06:54:10 -0700</pubDate>
+        <link>http://benjaminkinzer.com/design/2015/05/03/high-desert-journal-website-home/</link>
+        <guid isPermaLink="true">http://benjaminkinzer.com/design/2015/05/03/high-desert-journal-website-home/</guid>
+        
+        <category>website</category>
+        
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>JEM</title>
+        <description>
+</description>
+        <pubDate>Sun, 03 May 2015 06:34:10 -0700</pubDate>
+        <link>http://benjaminkinzer.com/design/2015/05/03/jem-packaging/</link>
+        <guid isPermaLink="true">http://benjaminkinzer.com/design/2015/05/03/jem-packaging/</guid>
+        
+        <category>packaging</category>
+        
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Adobe Retouch Photoshop</title>
+        <description>
+</description>
+        <pubDate>Sun, 03 May 2015 04:54:10 -0700</pubDate>
+        <link>http://benjaminkinzer.com/design/2015/05/03/adobe-retouch-home/</link>
+        <guid isPermaLink="true">http://benjaminkinzer.com/design/2015/05/03/adobe-retouch-home/</guid>
+        
+        <category>website</category>
+        
+        
+        <category>design</category>
+        
+      </item>
+    
   </channel>
 </rss>
