@@ -1,20 +1,21 @@
 ---
 layout: default
 ---
+<<<<<<< HEAD
+=======
 <div class="welcome">
   <h3>Why is this site look like it was made in 1989? Read <a href="{% post_url 2015-04-27-unknown-truths %}">Unknown Truths</a>.</h3> 
 </div>
+>>>>>>> master
 <div class="home">
   <div class="posts">
     {% for post in paginator.posts %}
       <div class="post">
+        {% if post.feature-image %}
+        <div class="feature-image" style="background-image:url({{ "/images/" | prepend: site.baseurl }}{{ post.feature-image }}); background-color:;"></div>
+        {% endif %}
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h2 post-title">{{ post.title }}</h3></a>
-        {% if post.feature-image %}
-        <div class="feature-image">
-          <img src="{{ "/images/" | prepend: site.baseurl }}{{ post.feature-image }}" alt="{{ post.feature-alt }}">
-        </div>
-        {% endif %}
         <p class="post-summary">
           {% if post.summary %}
             {{ post.summary }}

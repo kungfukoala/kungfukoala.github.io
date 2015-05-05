@@ -2,35 +2,113 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Benjamin Kinzer</title>
-    <description>Site description here.</description>
+    <description>Benjamin Kinzer - Creative Director and Designer who loves great ideas and making them real.</description>
     <link>http://benjaminkinzer.com/</link>
     <atom:link href="http://benjaminkinzer.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 30 Apr 2015 11:29:36 -0700</pubDate>
-    <lastBuildDate>Thu, 30 Apr 2015 11:29:36 -0700</lastBuildDate>
+    <pubDate>Mon, 04 May 2015 21:39:23 -0700</pubDate>
+    <lastBuildDate>Mon, 04 May 2015 21:39:23 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Unknown Truths</title>
-        <description>&lt;div class=&quot;introduction&quot;&gt;
-  &quot;In my music, I’m trying to play the truth of what I am. The reason it’s difficult is because I’m changing all the time.&quot; - Charles Mingus
-&lt;/div&gt;
+        <title>The JAM Project</title>
+        <description>&lt;p&gt;Charles Mingus quote is exactly how I feel about the redesign of [benjaminkinzer.com]. Working on personal projects is a challenge, but they’re not for off from client projects. They all feel like a Dyson vacuum cleaner in the beginning. You have one job; to vacuum up thousands of dust particles. Sounds simple; you’re a vacuum cleaner after all, right? &lt;/p&gt;
 
-&lt;p&gt;Charles Mingus quote is exactly how I feel about the redesign of &lt;a href=&quot;http://benjaminkinzer.com&quot;&gt;benjaminkinzer.com&lt;/a&gt;. Working on personal projects is a challenge, but they’re not for off from client projects. They all feel like a Dyson vacuum cleaner in the beginning. You have one job; to vacuum up thousands of dust particles. Sounds simple; you’re a vacuum cleaner after all, right? &lt;/p&gt;
-
-&lt;p&gt;Now replace dust particles with &lt;strong&gt;truths&lt;/strong&gt;. Your job is to decipher a few truths out of a thousand. Those few truths will be the framework for building concepts.&lt;/p&gt;
+&lt;p&gt;Now replace dust particles with &lt;strong&gt;truths&lt;/strong&gt;. Your job is to decipher a few truths out of a thousand. Those few truths will be the framework for building concepts. So, yeah you begin to feel like our friend the Skeleton who is wondering with a dust cloud of particles around his head.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-truth&quot;&gt;The Truth&lt;/h2&gt;
 &lt;p&gt;Right now, I’m currently at eight re-writes and four introductions. I’m struggling with the fear of exposing myself to the world in what may appear to be very unpolished presentation of my capabilities. I’m also having to reflect upon my own &lt;strong&gt;truths&lt;/strong&gt;, instead of discovering a clients.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-project&quot;&gt;The project&lt;/h2&gt;
-&lt;p&gt;A redesign of &lt;a href=&quot;http://benjaminkinzer.com&quot;&gt;benjaminkinzer.com&lt;/a&gt; from the beginning to completion. An opportunity to document, understand how I approach projects and find ways to refine my methods of design. Since we’re dealing with &lt;strong&gt;truths&lt;/strong&gt;, I have no idea what my method is for design projects. Hence the unknown and why I’m excited to begin working on this project. The redesign is providing me with an opportunity to document my methods, educate others on the role of a designer/art director, and maybe inspire someone along the way. &lt;/p&gt;
+&lt;p&gt;A redesign of [benjaminkinzer.com] from the beginning to completion. An opportunity to document, understand how I approach projects and find ways to refine my methods of design. Since we’re dealing with &lt;strong&gt;truths&lt;/strong&gt;, I have no idea what my method is for design projects. Hence the unknown and why I’m excited to begin working on this project. The redesign is providing me with an opportunity to document my methods, educate others on the role of a designer/art director, and maybe inspire someone along the way. &lt;/p&gt;
 
 &lt;p&gt;During this redesign we will be exploring a new approach to websites and web applications by designing within the browser. Eliminating the step of wire framing and prototyping in applications such as Photoshop or Sketch. This is why the site currently appears to have been made in 1989: &lt;a href=&quot;http://info.cern.ch/hypertext/WWW/TheProject.html&quot;&gt;World Wide Web&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;my-assumed-methodology&quot;&gt;My assumed methodology&lt;/h3&gt;
+&lt;h3 id=&quot;my-assumed-method&quot;&gt;My assumed Method&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Research (Remember Dyson Vacuum) or what my partner &lt;a href=&quot;http://chloefrommer.com&quot;&gt;Chloé Frommer&lt;/a&gt; does so well.&lt;/li&gt;
+  &lt;li&gt;Research (Remember Dyson Vacuum) or what my partner [Chloé Frommer] does so well.&lt;/li&gt;
+  &lt;li&gt;Concepts &amp;amp; Content&lt;/li&gt;
+  &lt;li&gt;Content Prioritization&lt;/li&gt;
+  &lt;li&gt;Style Board &lt;a href=&quot;http://styletil.es/&quot;&gt;Style Tiles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Layout&lt;/li&gt;
+  &lt;li&gt;Design&lt;/li&gt;
+  &lt;li&gt;Interaction (I’m on the fence whether this should become before design or after. Let’s find out.)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;notes-and-credits&quot;&gt;Notes and Credits&lt;/h2&gt;
+</description>
+        <pubDate>Sun, 03 May 2015 06:54:10 -0700</pubDate>
+        <link>http://benjaminkinzer.com/design/2015/05/03/the-jam-project/</link>
+        <guid isPermaLink="true">http://benjaminkinzer.com/design/2015/05/03/the-jam-project/</guid>
+        
+        <category>packaging</category>
+        
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>MixedBlood</title>
+        <description>&lt;p&gt;“In my music, I’m trying to play the truth of what I am. The reason it’s difficult is because I’m changing all the time.” - Charles Mingus&lt;/p&gt;
+
+&lt;p&gt;Charles Mingus quote is exactly how I feel about the redesign of [benjaminkinzer.com]. Working on personal projects is a challenge, but they’re not for off from client projects. They all feel like a Dyson vacuum cleaner in the beginning. You have one job; to vacuum up thousands of dust particles. Sounds simple; you’re a vacuum cleaner after all, right? &lt;/p&gt;
+
+&lt;p&gt;Now replace dust particles with &lt;strong&gt;truths&lt;/strong&gt;. Your job is to decipher a few truths out of a thousand. Those few truths will be the framework for building concepts. So, yeah you begin to feel like our friend the Skeleton who is wondering with a dust cloud of particles around his head.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-truth&quot;&gt;The Truth&lt;/h2&gt;
+&lt;p&gt;Right now, I’m currently at eight re-writes and four introductions. I’m struggling with the fear of exposing myself to the world in what may appear to be very unpolished presentation of my capabilities. I’m also having to reflect upon my own &lt;strong&gt;truths&lt;/strong&gt;, instead of discovering a clients.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-project&quot;&gt;The project&lt;/h2&gt;
+&lt;p&gt;A redesign of [benjaminkinzer.com] from the beginning to completion. An opportunity to document, understand how I approach projects and find ways to refine my methods of design. Since we’re dealing with &lt;strong&gt;truths&lt;/strong&gt;, I have no idea what my method is for design projects. Hence the unknown and why I’m excited to begin working on this project. The redesign is providing me with an opportunity to document my methods, educate others on the role of a designer/art director, and maybe inspire someone along the way. &lt;/p&gt;
+
+&lt;p&gt;During this redesign we will be exploring a new approach to websites and web applications by designing within the browser. Eliminating the step of wire framing and prototyping in applications such as Photoshop or Sketch. This is why the site currently appears to have been made in 1989: &lt;a href=&quot;http://info.cern.ch/hypertext/WWW/TheProject.html&quot;&gt;World Wide Web&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-assumed-method&quot;&gt;My assumed Method&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Research (Remember Dyson Vacuum) or what my partner [Chloé Frommer] does so well.&lt;/li&gt;
+  &lt;li&gt;Concepts &amp;amp; Content&lt;/li&gt;
+  &lt;li&gt;Content Prioritization&lt;/li&gt;
+  &lt;li&gt;Style Board &lt;a href=&quot;http://styletil.es/&quot;&gt;Style Tiles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Layout&lt;/li&gt;
+  &lt;li&gt;Design&lt;/li&gt;
+  &lt;li&gt;Interaction (I’m on the fence whether this should become before design or after. Let’s find out.)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;notes-and-credits&quot;&gt;Notes and Credits&lt;/h2&gt;
+</description>
+        <pubDate>Sun, 03 May 2015 06:54:10 -0700</pubDate>
+        <link>http://benjaminkinzer.com/design/2015/05/03/mixedblood-productions/</link>
+        <guid isPermaLink="true">http://benjaminkinzer.com/design/2015/05/03/mixedblood-productions/</guid>
+        
+        <category>identity</category>
+        
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>JEM</title>
+        <description>&lt;p&gt;“In my music, I’m trying to play the truth of what I am. The reason it’s difficult is because I’m changing all the time.” - Charles Mingus&lt;/p&gt;
+
+&lt;p&gt;Charles Mingus quote is exactly how I feel about the redesign of [benjaminkinzer.com]. Working on personal projects is a challenge, but they’re not for off from client projects. They all feel like a Dyson vacuum cleaner in the beginning. You have one job; to vacuum up thousands of dust particles. Sounds simple; you’re a vacuum cleaner after all, right? &lt;/p&gt;
+
+&lt;p&gt;Now replace dust particles with &lt;strong&gt;truths&lt;/strong&gt;. Your job is to decipher a few truths out of a thousand. Those few truths will be the framework for building concepts. So, yeah you begin to feel like our friend the Skeleton who is wondering with a dust cloud of particles around his head.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-truth&quot;&gt;The Truth&lt;/h2&gt;
+&lt;p&gt;Right now, I’m currently at eight re-writes and four introductions. I’m struggling with the fear of exposing myself to the world in what may appear to be very unpolished presentation of my capabilities. I’m also having to reflect upon my own &lt;strong&gt;truths&lt;/strong&gt;, instead of discovering a clients.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-project&quot;&gt;The project&lt;/h2&gt;
+&lt;p&gt;A redesign of [benjaminkinzer.com] from the beginning to completion. An opportunity to document, understand how I approach projects and find ways to refine my methods of design. Since we’re dealing with &lt;strong&gt;truths&lt;/strong&gt;, I have no idea what my method is for design projects. Hence the unknown and why I’m excited to begin working on this project. The redesign is providing me with an opportunity to document my methods, educate others on the role of a designer/art director, and maybe inspire someone along the way. &lt;/p&gt;
+
+&lt;p&gt;During this redesign we will be exploring a new approach to websites and web applications by designing within the browser. Eliminating the step of wire framing and prototyping in applications such as Photoshop or Sketch. This is why the site currently appears to have been made in 1989: &lt;a href=&quot;http://info.cern.ch/hypertext/WWW/TheProject.html&quot;&gt;World Wide Web&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-assumed-method&quot;&gt;My assumed Method&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Research (Remember Dyson Vacuum) or what my partner [Chloé Frommer] does so well.&lt;/li&gt;
   &lt;li&gt;Concepts &amp;amp; Content&lt;/li&gt;
   &lt;li&gt;Content Prioritization&lt;/li&gt;
   &lt;li&gt;Style Board &lt;a href=&quot;http://styletil.es/&quot;&gt;Style Tiles&lt;/a&gt;&lt;/li&gt;
@@ -41,38 +119,15 @@
 
 &lt;h2 id=&quot;notes-and-credits&quot;&gt;Notes and Credits&lt;/h2&gt;
 
-&lt;h3 id=&quot;music&quot;&gt;Music&lt;/h3&gt;
-&lt;p&gt;Here’s the music I was listening to while drafting this post. Ecclusiatics by Charles Mingus&lt;/p&gt;
-
-&lt;iframe src=&quot;https://embed.spotify.com/?uri=spotify%3Atrack%3A4KdRJgNreqwedBQPuQkycb&quot; width=&quot;250&quot; height=&quot;330&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&quot;reading&quot;&gt;Reading&lt;/h3&gt;
-&lt;p&gt;Building a Better User Experience by Designing in the Browser - &lt;a href=&quot;http://uxmag.com/articles/building-a-better-user-experience-by-designing-in-the-browser&quot;&gt;UX Magazine&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;art&quot;&gt;Art&lt;/h3&gt;
-&lt;p&gt;The lovely skeleton “Table 3” is by Bernhard Siegfried Albinus http://www.nlm.nih.gov/exhibition/historicalanatomies/albinus_bio.html&lt;/p&gt;
-
 </description>
-        <pubDate>Mon, 27 Apr 2015 06:54:10 -0700</pubDate>
-        <link>http://benjaminkinzer.com/design/development/2015/04/27/unknown-truths/</link>
-        <guid isPermaLink="true">http://benjaminkinzer.com/design/development/2015/04/27/unknown-truths/</guid>
+        <pubDate>Sun, 03 May 2015 06:54:10 -0700</pubDate>
+        <link>http://benjaminkinzer.com/design/2015/05/03/jem-packaging/</link>
+        <guid isPermaLink="true">http://benjaminkinzer.com/design/2015/05/03/jem-packaging/</guid>
         
-        <category>underscore,</category>
-        
-        <category>design</category>
-        
-        <category>in</category>
-        
-        <category>the</category>
-        
-        <category>browser,</category>
-        
-        <category>website</category>
+        <category>packaging</category>
         
         
         <category>design</category>
-        
-        <category>development</category>
         
       </item>
     
