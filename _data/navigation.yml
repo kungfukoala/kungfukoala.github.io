@@ -1,7 +1,0 @@
-main_navigation:
-  profile:
-    url:  "/profile/"
-    text: "Profile"
-  story:
-    url:  "/story-behind-the-site/"
-    text: "Story Behind the Site"  

@@ -1,4 +1,0 @@
-Nutrition facts
-Beginnings
-Modular Scale
-Typography

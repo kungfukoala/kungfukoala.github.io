@@ -1,4 +1,0 @@
-@include font-face("franklin-gothic", '#{$font-assetpath}FranklinGothic-Book-webfont', $file-formats: ttf woff);
-@include font-face("franklin-gothic", '#{$font-assetpath}FranklinGothic-BookIt-webfont', normal, italic, $file-formats: ttf woff);
-@include font-face("franklin-gothic", '#{$font-assetpath}FranklinGothic-Hvy-webfont', 800, $file-formats: ttf woff);
-@include font-face("franklin-gothic", '#{$font-assetpath}FranklinGothic-HvyIt-webfont', 800, italic, $file-formats: ttf woff);
