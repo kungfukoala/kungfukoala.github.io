@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="home">
+  <div class="posts">
+    {% for post in page.posts %}
+      <div class="post">
+        {% if post.thumbnail %}
+        <div class="post-feature {{ post.background-color }}" style="background-image:url({{ "/images/" | prepend: site.baseurl }}{{ post.thumbnail }});">
+          <header class="post-header">
+            <h3 class="post-title">{{ post.title }}</h3>
+            {% for tag in post.tags %}
+              <a class="tag" href="{{ site.baseurl }}/tag/{{ tag | slugize }}/">
+                {{ tag }}
+              </a>
+            {% endfor %}
+          </header>
+        </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,64 @@
+---
+layout: default
+---
+<div class="project">
+  <div class="project-feature-image">
+    <header class="project-header">
+      <h1 class="project-title">{{ page.title }}</h1>
+      {% if page.subtitle %}
+      <h2 class="project-subtitle">{{ page.subtitle }}</h2>
+      {% endif %}
+    </header>
+  </div>
+  <article class="project-content">
+    {{ content }}
+  </article>
+  <footer class="project-footer">
+    <aside class="project-information">
+      {% if page.agency %}
+        <span class="project-meta"><strong>Agency</strong> {{ page.agency }}</span><br>
+      {% endif %}
+      {% if page.for %}
+        <span class="project-meta"><strong>For</strong> {{ page.for }}</span><br>
+      {% endif %}
+      {% if page.typography %}
+        <span class="project-meta"><strong>Typography</strong> {{ page.typography }}</span><br>
+      {% endif %}
+      {% if page.photography %}
+        <span class="project-meta"><strong>Photography</strong> {{ page.photography }}</span><br>
+      {% endif %}
+      {% if page.director %}
+        <span class="project-meta"><strong>Director</strong> {{ page.director }}</span><br>
+      {% endif %}
+      {% if page.illustrator %}
+        <span class="project-meta"><strong>Illustrator</strong> {{ page.illustrator }}</span><br>
+      {% endif %}
+      {% if page.agency %}
+        <span class="project-meta"><strong>Agency</strong> {{ page.agency }}</span><br>
+      {% endif %}
+      {% if site.show_sharing %}
+        {% include sharing.html %}
+      {% endif %}
+      <strong>Filed under</strong>
+      {% if page.tags %}
+      <span class="project-tags">{{ page.tags | join: ' ' }}</span>
+      {% endif %}
+    </aside>
+    <span class="project-date"><strong>Published</strong> {{ page.date | date: "%b %-d, %Y" }}</span><br>
+    {% if page.update_date %}
+      <span class="project-date"><strong>Updated</strong> {{ page.update_date | date: "%b %-d, %Y" }}</span><br>
+    {% endif %}
+  </footer>
+  
+  {% if site.show_related_posts %}
+    <h3 class="related-post-title">Related Posts</h3>
+    {% for post in site.related_posts %}
+      <div class="post-related">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+          <h4 class="post-title">{{ post.title }}</h4>
+          <p class="post-summary">{{ post.summary }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  {% endif %}
+</div>

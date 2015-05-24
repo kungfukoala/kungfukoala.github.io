@@ -1,0 +1,12 @@
+.tag {
+  padding:0.4em 0.7em;
+  color:$light-grey;
+  font-family:$secondary-font-family;
+  background-color:$secondary;
+  font-size:$font-xsmall;
+  letter-spacing:0.1em;
+  text-decoration:none;
+  text-transform:capitalize;
+  @include border-top-radius(8px);
+  @include border-bottom-radius(8px);
+}

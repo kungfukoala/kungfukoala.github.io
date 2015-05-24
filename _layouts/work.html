@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<div class="work">
+  {% if page.feature-image %}
+  <div class="feature-image" style="background-image:url({{ "/images/" | prepend: site.baseurl }}{{ page.feature-image }});"></div>
+  {% endif %}
+  <header class="work-header">
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}
+    <h2>{{ page.subtitle }}</h2>
+    {% endif %}
+    {% if page.categories %}
+    <span class="work-categories">{{ page.categories | join: ' ' }}</span><br>
+    {% endif %}
+    {% if page.tags %}
+    <span class="work-tags">{{ page.tags | join: ' ' }}</span>
+    {% endif %}
+  </header>
+  <article class="work-content">
+    {{ content }}
+  </article>
+  <span class="work-meta">{{ page.date | date: "%b %-d, %Y" }}</span><br>
+  {% if page.update_date %}
+    <span class="work-meta">Updated: {{ page.update_date | date: "%b %-d, %Y" }}</span><br>
+  {% endif %}
+  {% if site.show_sharing %}
+    {% include sharing.html %}
+  {% endif %}
+
+  {% if site.show_related_posts %}
+    <h3 class="related-post-title">Related Posts</h3>
+    {% for post in site.related_posts %}
+      <div class="post-related">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+          <h4 class="post-title">{{ post.title }}</h4>
+          <p class="post-summary">{{ post.summary }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+</div>
+

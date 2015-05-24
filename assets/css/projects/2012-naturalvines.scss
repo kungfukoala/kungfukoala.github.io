@@ -1,0 +1,99 @@
+---
+---
+// PLUGINS
+@import           'bourbon/bourbon';
+@import           'jeet/index';
+@import           'base/mediaqueries';
+// MIXINS
+@import           'mixins/mixins';
+// EXTEND
+@import           'extend/placeholders';
+// SETTINGS
+@import           'settings/variables';
+
+$project-folder:  'naturalvines';
+$client:          'naturalvines';
+
+.project-feature-image {
+  @include col(1/1);
+  @include background-image("#{$project-folder}/#{$client}-book-cover.png");
+  background-position:bottom;
+  background-size:98%;
+  height:425px;
+  // Screen sizes larger than mobile
+  @include min-screen(nth($res-collection, 2)*1px) {
+    background-position:25%;
+    background-size:auto;
+    height:700px;
+  }
+}
+.short-film {
+  @include col(1/1);
+}
+.natural-vines-cover {
+  @extend .project-feature-image;
+  height:250px;
+  @include background-image("#{$project-folder}/#{$client}-book-cover.png");
+  background-position:center;
+  background-size:50%;
+  @include min-screen(nth($res-collection, 2)*1px) {
+    background-size:auto;
+    height:700px;
+  }
+}
+%grid {
+  @include col(1/1);
+  height:205px;
+  @include min-screen(nth($res-collection, 2)*1px) {
+    @include col(1/2, $cycle: 2);
+    height:425px;
+  }
+}
+.natural-vines-plant {
+  @extend %grid;
+  @include background-image("#{$project-folder}/#{$client}-book-plant.png");
+  background-position:center;
+  background-size:98%;
+  @include min-screen(nth($res-collection, 2)*1px) {
+    background-size:auto;
+  }
+}
+.natural-vines-lake {
+  @extend %grid;
+  @include background-image("#{$project-folder}/#{$client}-book-graphic-lake.png");
+  background-position:bottom;
+  background-size:98%;
+  @include min-screen(nth($res-collection, 2)*1px) {
+    background-size:auto;
+  }
+}
+.natural-vines-quote {
+  @extend %grid;
+  @include background-image("#{$project-folder}/#{$client}-book-graphic-quote.png");
+  background-position:top;
+  background-size:98%;
+  @include min-screen(nth($res-collection, 2)*1px) {
+    background-size:auto;
+  }
+}
+.natural-vines-moon {
+  @extend %grid;
+  @include background-image("#{$project-folder}/#{$client}-book-moon.png");
+  background-position:center;
+  background-size:98%;
+  @include min-screen(nth($res-collection, 2)*1px) {
+    background-size:auto;
+  }
+}
+.natural-vines-bird {
+  @extend .project-feature-image;
+  height:205px;
+  @include background-image("#{$project-folder}/#{$client}-book-interior-bird.png");
+  background-position:center;
+  background-size:98%;
+  @include min-screen(nth($res-collection, 2)*1px) {
+    background-size:auto;
+    height:550px;
+    margin-bottom:$spacing-medium;
+  }
+}
