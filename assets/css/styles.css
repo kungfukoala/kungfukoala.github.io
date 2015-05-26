@@ -690,10 +690,7 @@ body {
 
 .footer {
   margin-top: 5.4em;
-  color: white;
-  background-color: black; }
-  .footer a {
-    color: white; }
+  color: #000000; }
   .footer .contact, .footer .newsletter, .footer .legal {
     float: left;
     clear: none;
@@ -717,8 +714,8 @@ body {
     padding-top: 0.675em; }
   .footer .newsletter .button {
     margin-top: 1.35em;
-    background-color: black;
-    border: 2px solid white; }
+    background-color: white;
+    border: 2px solid black; }
   .footer .contact .description {
     font-weight: 800; }
   .footer .legal {
@@ -756,7 +753,14 @@ body {
 .profile {
   background-color: black;
   color: white; }
-  .profile p {
+  .profile .footer {
+    color: #FFFFFF; }
+    .profile .footer .button {
+      margin-top: 1.35em;
+      background-color: black;
+      border: 2px solid white;
+      color: #FFFFFF; }
+  .profile .who p {
     font-size: 2em; }
   .profile a {
     color: white;
@@ -833,8 +837,13 @@ body {
         clear: both; } }
 .home .post-header {
   position: absolute;
-  top: 10px;
+  margin: 0px;
+  right: 0px;
   padding-left: 1.7em; }
 .home .post-title {
-  font-size: 1.2em;
-  font-weight: 100; }
+  margin: 0px;
+  padding: 6px 10px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: white;
+  background-color: black; }
