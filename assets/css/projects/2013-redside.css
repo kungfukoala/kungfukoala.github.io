@@ -1,0 +1,235 @@
+/*  Syntax Quick Reference
+  --------------------------
+  column($ratios: 1, $offset: 0, $cycle: 0, $uncycle: 0, $gutter: $jeet-gutter)
+  span($ratio: 1, $offset: 0)
+  shift($ratios: 0, $col_or_span: column, $gutter: $jeet-gutter)
+  unshift()
+  edit()
+  center($max_width: 1410px, $pad: 0)
+  stack($pad: 0, $align: false)
+  unstack()
+  align($direction: both)
+  cf()
+*/
+/**
+ * Grid settings.
+ * All values are defaults and can therefore be easily overidden.
+ */
+/**
+ * List functions courtesy of the wonderful folks at Team Sass.
+ * Check out their awesome grid: Singularity.
+ */
+/**
+ * Get  percentage from a given ratio.
+ * @param {number} [$ratio=1] - The column ratio of the element.
+ * @returns {number} - The percentage value.
+ */
+/**
+ * Work out the column widths based on the ratio and gutter sizes.
+ * @param {number} [$ratios=1] - The column ratio of the element.
+ * @param {number} [$gutter=$jeet-gutter] - The gutter for the column.
+ * @returns {list} $width $gutter - A list containing the with and gutter for the element.
+ */
+/**
+ * Get the set layout direction for the project.
+ * @returns {string} $direction - The layout direction.
+ */
+/**
+ * Replace a specified list value with a new value (uses built in set-nth() if available)
+ * @param {list} $list - The list of values you want to alter.
+ * @param {number} $index - The index of the list item you want to replace.
+ * @param {*} $value - The value you want to replace $index with.
+ * @returns {list} $list - The list with the value replaced or removed.
+ * @warn if an invalid index is supplied.
+ */
+/**
+ * Reverse a list (progressively enhanced for Sass 3.3)
+ * @param {list} $list - The list of values you want to reverse.
+ * @returns {list} $result - The reversed list.
+ */
+/**
+ * Get the opposite direction to a given value.
+ * @param {string} $dir - The direction you want the opposite of.
+ * @returns {string} - The opposite direction to $dir.
+ * @warn if an incorrect string is provided.
+ */
+/**
+ * Style an element as a column with a gutter.
+ * @param {number} [$ratios=1] - A width relative to its container as a fraction.
+ * @param {number} [$offset=0] - A offset specified as a fraction (see $ratios).
+ * @param {number} [$cycle=0] - Easily create an nth column grid where $cycle equals the number of columns.
+ * @param {number} [$uncycle=0] - Undo a previous cycle value to allow for a new one.
+ * @param {number} [$gutter=$jeet-gutter] - Specify the gutter width as a percentage of the containers width.
+ */
+/**
+ * An alias for the column mixin.
+ * @param [$args...] - All arguments get passed through to column().
+ */
+/**
+ * Get the width of a column and nothing else.
+ * @param {number} [$ratios=1] - A width relative to its container as a fraction.
+ * @param {number} [$gutter=$jeet-gutter] - Specify the gutter width as a percentage of the containers width.
+ */
+/**
+ * Get the gutter size of a column and nothing else.
+ * @param {number} [ratios=1] - A width relative to its container as a fraction.
+ * @param {number} [gutter=jeet.gutter] - Specify the gutter width as a percentage of the containers width.
+ */
+/**
+ * An alias for the column-width function.
+ * @param [$args...] - All arguments get passed through to column().
+ */
+/**
+ * An alias for the column-gutter function.
+ * @param [$args...] - All arguments get passed through to column().
+ */
+/**
+ * Style an element as a column without any gutters for a seamless row.
+ * @param {number} [$ratios=1] - A width relative to its container as a fraction.
+ * @param {number} [$offset=0] - A offset specified as a fraction (see $ratios).
+ * @param {number} [cycle=0] - Easily create an nth column grid where cycle equals the number of columns.
+ * @param {number} [uncycle=0] - Undo a previous cycle value to allow for a new one.
+ */
+/**
+ * Reorder columns without altering the HTML.
+ * @param {number} [$ratios=0] - Specify how far along you want the element to move.
+ * @param {string} [$col-or-span=column] - Specify whether the element has a gutter or not.
+ * @param {number} [$gutter=$jeet-gutter] - Specify the gutter width as a percentage of the containers width.
+ */
+/**
+ * Reset an element that has had shift() applied to it.
+ */
+/**
+ * View the grid and its layers for easy debugging.
+ * @param {string} [$color=black] - The background tint applied.
+ * @param {boolean} [$important=false] - Whether to apply the style as !important.
+ */
+/**
+ *  Alias for edit().
+ */
+/**
+ * Horizontally center an element.
+ * @param {number} [$max-width=1410px] - The max width the element can be.
+ * @param {number} [$pad=0] - Specify the element's left and right padding.
+ */
+/**
+ * Uncenter an element.
+ */
+/**
+ * Stack an element so that nothing is either side of it.
+ * @param {number} [$pad=0] - Specify the element's left and right padding.
+ * @param {boolean/string} [$align=false] - Specify the text align for the element.
+ */
+/**
+ * Unstack an element.
+ */
+/**
+ * Center an element on either or both axes.
+ * @requires A parent container with relative positioning.
+ * @param {string} [$direction=both] - Specify which axes to center the element on.
+ */
+/**
+ * Apply a clearfix to an element.
+ */
+.project-feature-image, .natural-vines-cover, .natural-vines-bird {
+  float: left;
+  clear: none;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%;
+  background: url(/images/redside/redside-book-cover.png) no-repeat 0px 0px;
+  background-position: bottom;
+  background-size: 98%;
+  height: 425px; }
+  .project-feature-image:last-child, .natural-vines-cover:last-child, .natural-vines-bird:last-child {
+    margin-right: 0%; }
+  @media screen and (min-width: 480px) {
+    .project-feature-image, .natural-vines-cover, .natural-vines-bird {
+      background-position: 25%;
+      background-size: auto;
+      height: 700px; } }
+
+.short-film {
+  float: left;
+  clear: none;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%; }
+  .short-film:last-child {
+    margin-right: 0%; }
+
+.natural-vines-cover {
+  height: 250px;
+  background: url(/images/redside/redside-book-cover.png) no-repeat 0px 0px;
+  background-position: center;
+  background-size: 50%; }
+  @media screen and (min-width: 480px) {
+    .natural-vines-cover {
+      background-size: auto;
+      height: 700px; } }
+
+.natural-vines-plant, .natural-vines-lake, .natural-vines-quote, .natural-vines-moon {
+  float: left;
+  clear: none;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 3%;
+  height: 205px; }
+  .natural-vines-plant:last-child, .natural-vines-lake:last-child, .natural-vines-quote:last-child, .natural-vines-moon:last-child {
+    margin-right: 0%; }
+  @media screen and (min-width: 480px) {
+    .natural-vines-plant, .natural-vines-lake, .natural-vines-quote, .natural-vines-moon {
+      float: left;
+      clear: none;
+      width: 48.5%;
+      margin-left: 0%;
+      margin-right: 3%;
+      height: 425px; }
+      .natural-vines-plant:nth-of-type(2n), .natural-vines-lake:nth-of-type(2n), .natural-vines-quote:nth-of-type(2n), .natural-vines-moon:nth-of-type(2n) {
+        margin-right: 0%;
+        float: right; }
+      .natural-vines-plant:nth-of-type(2n + 1), .natural-vines-lake:nth-of-type(2n + 1), .natural-vines-quote:nth-of-type(2n + 1), .natural-vines-moon:nth-of-type(2n + 1) {
+        clear: both; } }
+
+.natural-vines-plant {
+  background: url(/images/redside/redside-book-plant.png) no-repeat 0px 0px;
+  background-position: center;
+  background-size: 98%; }
+  @media screen and (min-width: 480px) {
+    .natural-vines-plant {
+      background-size: auto; } }
+
+.natural-vines-lake {
+  background: url(/images/redside/redside-book-graphic-lake.png) no-repeat 0px 0px;
+  background-position: bottom;
+  background-size: 98%; }
+  @media screen and (min-width: 480px) {
+    .natural-vines-lake {
+      background-size: auto; } }
+
+.natural-vines-quote {
+  background: url(/images/redside/redside-book-graphic-quote.png) no-repeat 0px 0px;
+  background-position: top;
+  background-size: 98%; }
+  @media screen and (min-width: 480px) {
+    .natural-vines-quote {
+      background-size: auto; } }
+
+.natural-vines-moon {
+  background: url(/images/redside/redside-book-moon.png) no-repeat 0px 0px;
+  background-position: center;
+  background-size: 98%; }
+  @media screen and (min-width: 480px) {
+    .natural-vines-moon {
+      background-size: auto; } }
+
+.natural-vines-bird {
+  height: 205px;
+  background: url(/images/redside/redside-book-interior-bird.png) no-repeat 0px 0px;
+  background-position: center;
+  background-size: 98%; }
+  @media screen and (min-width: 480px) {
+    .natural-vines-bird {
+      background-size: auto;
+      height: 550px;
+      margin-bottom: 1.35em; } }
