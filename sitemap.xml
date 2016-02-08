@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://benjaminkinzer.com/journal/development/ux/2016/my-site-faults-and-all</loc>
+    <lastmod>2016-02-10T05:54:10-08:00</lastmod>
+  </url>
+  <url>
     <loc>http://benjaminkinzer.com/project/2015/juju</loc>
     <lastmod>2015-10-07T05:54:10-07:00</lastmod>
   </url>
@@ -29,6 +33,9 @@
   </url>
   <url>
     <loc>http://benjaminkinzer.com/</loc>
+  </url>
+  <url>
+    <loc>http://benjaminkinzer.com/journal/</loc>
   </url>
   <url>
     <loc>http://benjaminkinzer.com/a-little-love/</loc>
